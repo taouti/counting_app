@@ -126,6 +126,7 @@ class _HomeState extends State<Home> {
                           } else {
                             countStep =
                                 double.parse(_controller.text).toDouble();
+                            _controller.clear();
                           }
                         });
                       },
